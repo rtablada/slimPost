@@ -20,11 +20,11 @@ class SlimPost
 
 	public function send()
 	{
-		$payload = http_build_query($attributes['data']);
+		$payload = http_build_query($this->attributes['data']);
 
 		$ch = curl_init();
-		curl_setopt($ch, CURLOPT_URL, $attributes['url']);
-		curl_setopt($ch, CURLOPT_POST, count($attributes['data']));
+		curl_setopt($ch, CURLOPT_URL, $this->attributes['url']);
+		curl_setopt($ch, CURLOPT_POST, count($this->attributes['data']));
 		curl_setopt($ch, CURLOPT_POSTFIELDS, $payload);
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 
