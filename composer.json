@@ -8,8 +8,8 @@
         }
     ],
 	"autoload": {
-		"psr-0": {"Rtablada\\SlimPost": "src/"}
-	},
+        "psr-0": { "Rtablada\\SlimPost": "src/" }
+    },
 	
 	"minimum-stability": "dev"
 }

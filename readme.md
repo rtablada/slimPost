@@ -21,7 +21,7 @@ In your sample file after autoloading SlimPost is super easy to use!
 
 ```php
 <?php
-use Rtablada\SlimPost;
+use Rtablada\SlimPost\SlimPost;
 
 $url = "http://somewebsite.co";
 $data = array(
