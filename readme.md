@@ -11,7 +11,7 @@ This package is distributed using Packagist and Composer.
 
 To your composer.json requires object add
 
-`"Rtablada/SlimPost" : "*"`
+`"Rtablada/slim-post" : "*"`
 
 Run `composer install` or `composer update`
 
