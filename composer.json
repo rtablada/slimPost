@@ -1,0 +1,15 @@
+{
+	"name": "rtablada\slim-post",
+	"description": "A super slim POST CURL wrapper",
+	"authors": [
+        {
+            "name": "Ryan Tablada",
+            "email": "ryan.tablada@gmail.com"
+        }
+    ],
+	"autoload": {
+		"psr-0": {"Rtablada\\SlimPost": "src/"}
+	},
+	
+	"minimum-stability": "dev"
+}
