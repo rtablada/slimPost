@@ -1,5 +1,5 @@
 {
-	"name": "rtablada\slim-post",
+	"name": "rtablada/slim-post",
 	"description": "A super slim POST CURL wrapper",
 	"authors": [
         {
